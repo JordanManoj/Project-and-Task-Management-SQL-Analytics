@@ -25,9 +25,9 @@ This SQL-based project showcases how to manage and analyze data from a company h
 
 ---
 
-##  SQL Features Demonstrated
+## SQL Features Demonstrated
 
-###  Core & Advanced SQL Concepts:
+### Core & Advanced SQL Concepts:
 
 - **CTEs (Common Table Expressions)**
 - **Window Functions (`RANK`, `COUNT OVER`, etc.)**
@@ -39,8 +39,7 @@ This SQL-based project showcases how to manage and analyze data from a company h
 
 ---
 
-
-### Query Highlights
+## Query Highlights
 
 1. **Project Task Summary using CTE**  
    Shows project name with total and completed task count using a `WITH` clause.
@@ -79,9 +78,50 @@ This SQL-based project showcases how to manage and analyze data from a company h
 1. Open your SQL client (e.g., pgAdmin, MySQL Workbench, SQLite).
 2. Run the script `Part1.sql` in the following order:
    - Create and populate: `Projects`, `Tasks`, `Teams`
-   - Run queries the 8 queries
-   - Create and populate: `Model_Training`, `Data_Sets` or use the `Part2.sql` file
-   - Run queries in that file
+   - Run the 8 queries in this file
+3. Run `Part2.sql` to:
+   - Create and populate: `Model_Training`, `Data_Sets`
+   - Execute the final 2 queries on AI models and datasets
+
+---
+
+##  Sample Outputs(for few commands)
+
+### 1. Project Task Summary
+
+| project_name       | total_tasks | completed_tasks |
+|--------------------|-------------|------------------|
+| AI Assistant       | 3           | 1                |
+| Website Redesign   | 1           | 1                |
+| Mobile App         | 1           | 1                |
+| Cybersecurity Audit| 1           | 0                |
+
+---
+
+### 2. Top Assigned Team Members
+
+| assigned_to | task_count |
+|-------------|------------|
+| Alice       | 2          |
+| Charlie     | 2          |
+
+---
+
+### 3. Best Performing AI Model Per Project
+
+| project_name     | model_name | accuracy |
+|------------------|------------|----------|
+| AI Assistant     | GPT-2      | 91.20    |
+| Mobile App       | EfficientNet | 88.00  |
+
+---
+
+### 4. Projects with Large, Fresh Datasets
+
+| project_name       |
+|--------------------|
+| AI Assistant       |
+| Cloud Migration    |
 
 ---
 
@@ -90,5 +130,3 @@ This SQL-based project showcases how to manage and analyze data from a company h
 This assignment was designed to demonstrate a complete end-to-end use of relational databases, advanced SQL techniques, and practical business logic simulation in a multi-project environment.
 
 It was assigned to me as part of my training at a company to strengthen my skills in SQL querying, data modeling, and real-world analytics scenarios.
-
-
