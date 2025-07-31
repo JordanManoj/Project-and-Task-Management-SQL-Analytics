@@ -85,5 +85,10 @@ This SQL-based project showcases how to manage and analyze data from a company h
 
 ---
 
-## 📁 Folder Structure
+## Note
+
+This assignment was designed to demonstrate a complete end-to-end use of relational databases, advanced SQL techniques, and practical business logic simulation in a multi-project environment.
+
+It was assigned to me as part of my training at a company to strengthen my skills in SQL querying, data modeling, and real-world analytics scenarios.
+
 
